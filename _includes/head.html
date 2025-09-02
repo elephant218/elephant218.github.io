@@ -1,6 +1,12 @@
 <meta charset="UTF-8">
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 
+<!-- 用于 Safari on iOS (苹果设备) - 目前仍需要 -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<!-- 用于其他浏览器的新标准 -->
+<meta name="mobile-web-app-capable" content="yes">
+
 {%- if page.title -%}
     <title>{{ page.title | escape }} · {{ site.title | escape }}</title>
 {%- else -%}
